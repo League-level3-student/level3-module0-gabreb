@@ -1,5 +1,6 @@
 package _00_IntroToArrays;
 
+import java.util.HashMap;
 import java.util.Random;
 
 import javax.swing.JOptionPane;
@@ -13,6 +14,7 @@ public class _01_RobotRace {
 		int randy;
 		boolean race2 = true;
 		boolean winner = true;
+		
 		//2. create an array of 5 robots.
 Robot[] robots = new Robot[5];
 		//3. use a for loop to initialize the robots.
